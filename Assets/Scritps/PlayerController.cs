@@ -48,12 +48,12 @@ public class PlayerController : MonoBehaviour
             case CharacterState.Idle:
             break;
             case CharacterState.Walk:
-                Debug.Log("Walk");
+                //Debug.Log("Walk");
                 transform.Translate(speedLR*Time.deltaTime,0,speedFR*Time.deltaTime);
                 transform.Rotate(0,rotDir*Time.deltaTime,0);
                 break;
             case CharacterState.JUMP:
-                Debug.Log("JUMP");
+                //Debug.Log("JUMP");
                 rb.AddForce(new Vector3(0,5,0), ForceMode.Impulse);
                 break;
         }
@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
             rotDir = 0;
         }
     }
-
+    /*
     private void OnCollisionEnter(Collision other) {
         if(other.collider.CompareTag("Finish")){
             manager.silenceBackgroundMusic(true);
@@ -127,4 +127,5 @@ public class PlayerController : MonoBehaviour
             onTheGround = true;
         }
     }
+    */
 }

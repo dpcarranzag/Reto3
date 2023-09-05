@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/reto3/Menu.unity
+    guid: 50b9233a93b59fc40ad9e9ad45d4c69e
+  - enabled: 1
+    path: Assets/Scenes/reto3/Bosque.unity
+    guid: bc9352252cbcb7ecdb759f30c9a62344
+  - enabled: 1
+    path: Assets/Scenes/reto3/Agua.unity
+    guid: 6b0d351bedef4d52ab6850e004a6cdfe
   m_configObjects: {}
